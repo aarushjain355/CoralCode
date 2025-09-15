@@ -53,3 +53,8 @@ func Redo(c *gin.Context) {
 	// move a pointer above from redis with a key stroke if possible
 	fmt.Println("Pushing to Redis...")
 }
+
+func RemoveFromCache(c *gin.Context) {
+	// runs an algorithm to remove certain cache items from the redis cache
+	fmt.Println("Removing from Cache...")
+}
